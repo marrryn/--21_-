@@ -1,0 +1,26 @@
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.my-img {
+    margin-top: 1%;
+    max-width: 32%;
+}
+
+@media only screen and (max-width: 769px) {
+    .my-img {
+        margin-top: 1%;
+        max-width: 47%;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .my-img {
+        margin-top: 2%;
+        max-width: 95%;
+    }
+}
